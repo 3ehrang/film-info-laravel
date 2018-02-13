@@ -1,9 +1,9 @@
 # film-info-laravel
 This is a test assignment which covers RESTful API, DB, auth and form functionality in Laravel using vue.js to create simple web application for films. 
 
-## 1) BACKEND
+## 1. BACKEND
 
-### 1.1) Implement RESTful API to manage films
+1.1- Implement RESTful API to manage films
 
 ```
 Eeach Film have these fields:
@@ -18,31 +18,28 @@ Eeach Film have these fields:
 * Genre
 * Photo
 
-### 1.2) All fields are required, rating is on scale from 1 to 5, 1 film can have several genres.
+1.2- All fields are required, rating is on scale from 1 to 5, 1 film can have several genres.
 
 
-## 2) FRONTEND
+## 2. FRONTEND
 
-### 2.1) Created frontend page /films/ to show all films through API. 1 film per 1 page. 
+2.1- Created frontend page /films/ to show all films through API. 1 film per 1 page. 
 
-### 2.2) Added redirect from / to /films/
+2.2- Added redirect from / to /films/
 
-### 2.3) Implemented frontend page /films/film-slug-name to show specific film. URL should have film's slug.
+2.3- Implemented frontend page /films/film-slug-name to show specific film. URL should have film's slug.
 
-### 2.4) Implemented frontend page /films/create with form to create new film. 
+2.4- Implemented frontend page /films/create with form to create new film. 
 
-### 2.5) Added registration and authentication
+2.5- Added registration and authentication
 
-### 2.6) Added possibility to post comments for each films. Fields "Name" and "Comment" are required. Only registered users can post comments
-
+2.6- Added possibility to post comments for each films. Fields "Name" and "Comment" are required. Only registered users can post comments
 
 *NOTES: Created DB seeder with 3 films and 1 comment for every film*
 
-## 3) Installation
+## 3. Installation
 
-
-
-### 3.1) Create virtual host with these general information with your own app path and url
+3.1- Create virtual host with these general information with your own app path and url
 
 	<VirtualHost *:80>
 	    ServerAdmin root@localhost.com
@@ -58,19 +55,20 @@ Eeach Film have these fields:
 	    </directory>
 	</VirtualHost>
 	
-### 3.2) Clone project via git repository and setup environment and config file
+3.2- Clone project via git repository and setup environment and config file
 
-### 3.3) Create database
+3.3- Create database
 
-### 3.3) Rename or copy .env.local to .env and change database connection information
-### 3.3) Use these command line in the root of project to setup
+3.4- Rename or copy .env.local to .env and change database connection information
+
+3.5- Use these command line in the root of project to setup
 
 * composer update			- get repository dependency
 * php artisan key:generate	- generate app key
 * php artisan migrate		- create database table
 * php artisan db:seed		- db seeding
 	
-## 3) How to use api
+## 4. How to use api
 
 Get all films
 =============
