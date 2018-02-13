@@ -1,0 +1,10 @@
+/*!
+ * fileinfo app custom css
+ */
+.genre-tag { padding: 5px; margin-left: 10px; }
+article img { width: 100%; margin-bottom: 15px; }
+.description { min-height: 140px; }
+article {margin-bottom: 50px;}
+.checked { color: orange; }
+.genre-tag:first-child { margin-left: 0px; }
+.btn-comment {margin-top: 10px;}
